@@ -9,7 +9,8 @@
   },
   "babel": {
     "presets": [
-      "latest"
+      "latest",
+      "react"
     ]
   },
   "eslintConfig": {
@@ -23,11 +24,14 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.22.0",
-    "gulp-babel": "^6.1.2"
+    "gulp-babel": "^6.1.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
   },
   "devDependencies": {
     "babel-loader": "^6.2.10",
     "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
     "del": "^2.2.2",
     "eslint": "^3.15.0",
     "eslint-config-airbnb": "^14.1.0",
