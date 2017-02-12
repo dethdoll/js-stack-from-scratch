@@ -3,7 +3,7 @@ class Dog {
     this.name = name;
   }
   bark() {
-    return `waou waou I am ${this.name}`;
+    return `Wah wah, I am ${this.name}`;
   }
   barkInConsole() {
     /* eslint-disable no-console */
